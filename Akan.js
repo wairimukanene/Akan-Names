@@ -9,4 +9,10 @@ function validate() {
         document.myForm.year.focus() ;
         return false;
     }
+    else if(document.myForm.month.value=="" || isNaN(document.myForm.month.value) ||
+    document.myForm.month.value.length !=2|| document.myForm.month.value>12 || document.myForm.month.value<=0){
+        alert("Please provide a valid month of birth! between 1 and 12");
+        document.myForm.month.focus() ;
+        return false;
+    }
 }
