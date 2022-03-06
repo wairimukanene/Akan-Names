@@ -1,0 +1,25 @@
+.nav{
+    overflow: hidden;
+    background-color: black;
+}
+/* Style the link inside the navigation bar*/
+.nav a {
+    float:left;
+    color:bisque;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:18px;
+}
+/* Change the color of links on hower*/
+.nav a:hower {
+    background-color: darkgoldenrod;
+    color:aqua;
+
+}
+
+.h2 class{
+    font-weight: 100;
+    color: black;
+    font-size: 20px;
+}
