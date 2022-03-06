@@ -25,9 +25,13 @@
 }
 .Home{
     display:flex;
-    justify-content: space-evenly;
     align-items: center;
+    margin: 0 auto;
+    font-size: larger;
 }
 .About{
 align-items: center;
+}
+input{
+    width:100%;
 }
