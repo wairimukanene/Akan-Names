@@ -77,6 +77,26 @@ function validate() {
             if (dayvalue==1){
                 alert("you were born on " +dayNames[0] + " and Your akan name is " +femaleNames[0]+"!");
             }
+            else if(dayvalue==2){
+                alert("you were born on " +dayNames[1] + " and Your akan name is " +femaleNames[1]+"!");
+            }
+            else if(dayvalue==3){
+                alert("you were born on " +dayNames[2] + " and Your akan name is " +femaleNames[2()]+"!");
+            }
+            else if(dayvalue==4){
+                alert("you were born on " +dayNames[3] + " and Your akan name is " +femaleNames[3()]+"!");
+            }
+            else if(dayvalue==5){
+                alert("you were born on " +dayNames[4] + " and Your akan name is " +femaleNames[4()]+"!");
+            }
+            else if(dayvalue==6){
+                alert("you were born on " +dayNames[5] + " and Your akan name is " +femaleNames[5()]+"!");
+            }
+            else if(dayvalue==0){
+                alert("you were born on " +dayNames[6] + " and Your akan name is " +femaleNames[6()]+"!");
+            }
+
+
     }
     }
 }
