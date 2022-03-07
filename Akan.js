@@ -43,6 +43,8 @@ function validate() {
         if(gender[0].checked==true){
             var gender="male";
         }
-        else if
+        else if(gender[1].checked==true){
+            
+        }
     }
 }
