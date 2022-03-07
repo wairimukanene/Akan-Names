@@ -39,11 +39,24 @@ function validate() {
         return (Math.floor(d));
     }
     function getGender(){
-        var gender=document.getElementsByName("gender");
+        let gender=document.getElementsByName("gender");
         if(gender[0].checked==true){
-            var gender="male";
+            let gender="male";
         }
         else if(gender[1].checked==true){
+            let gender="female";
+        }
+        else{
+            return false;
+        }
+        switch(gender){
+            case"male":
+            if (dayvalue==1){
+                alert("you were born on " +dayNames[0] + " and Your akan name is " +maleNames[0]+"!");
+            }
+            else if(dayvalue==2){
+                alert("you were born on " +dayNames[1] + " and Your akan name is " +maleNames[1]+"!");
+            }
             
         }
     }
