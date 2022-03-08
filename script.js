@@ -1,6 +1,6 @@
 function submitForm(e) {
     event.preventDefault();}
-let genderPicked = document.querySelector("#gender");
+    let genderPicked = document.querySelector("#gender");
 let akanName = document.getElementById('result');
 
 let dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -22,3 +22,6 @@ function generateAkanName() {
         }
     }
 }
+
+  
+
