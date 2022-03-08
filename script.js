@@ -1,5 +1,3 @@
-function submitForm(e) {
-    event.preventDefault();}
 let genderPicked = document.querySelector("#gender");
 let akanName = document.getElementById('result');
 
@@ -22,3 +20,6 @@ function generateAkanName() {
         }
     }
 }
+
+  
+
