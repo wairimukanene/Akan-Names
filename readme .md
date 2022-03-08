@@ -11,7 +11,7 @@
 + [Technology-used](The technology used in my web applicationits html-for structure,css-for styling.javascript-to make page interactive)
 + [Reference](W3schools,Markdown,Youtube)
 + [Author-information](Wairimu Kanene,mercykanene254@gmail.com)
-+ [Designer-information](Wairimu kanene)
++ +[Designer-information](Wairimu kanene)
 ---
 
 
@@ -32,10 +32,6 @@ Then paste and enter.
 ### live link
 [livelink](https://wairimukanene.github.io/Akan-Names/)
 
-### Screenshot
-akan.jpg
-
-This is a web application that generates Akan-Names in both male and female according to the that the person was born
 ---
 
 ### Installation process
