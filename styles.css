@@ -37,7 +37,6 @@
 .About{
 align-items: center;
 }
-<<<<<<< HEAD
 .form{
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -57,7 +56,6 @@ footer-copyright{
     text-decoration: none;
   }
 
-=======
 .row-footer{
     justify-content: space-evenly;
     background-color: #FCA000;
@@ -67,4 +65,3 @@ footer-copyright{
     justify-content: space-between;
     background: black;
 }
->>>>>>> master
