@@ -64,4 +64,5 @@ footer-copyright{
     display:flex;
     justify-content: space-between;
     background: black;
+    margin-bottom: 0;
 }
