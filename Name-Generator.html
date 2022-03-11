@@ -1,30 +1,36 @@
 <html>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet"href="styles.css">
 <body>
     <div class="Name-Generator"id="Name-Generator">
         <body>
             <style>
                 body{
-                    background-image: url("photoss/akan.jpg");
+                    background-image: url("/photoss/africa.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
                 }
             </style>
-            <h1><b>AKAN NAMES!!</b></h1>
-    <h2><b>Easy and Fast!!</b></h2>
-    <div >
+            <h1><b>AKAN NAMES</b></h1>
+    <h2><b>Easy and Fast</b></h2>
+    <div class="Form" id="form-generator">
         <label for="date">Date of Birth</label><br/>
         <input type="date" id="date" name="date"><br/>
         <label for="gender">Select your Gender</label><br/>
         <select name="gender" id="gender">
-            <option selected>Pick Gender</option>
+            <option selected>Pick Gender</option >
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select><br/>
         <input type="submit" name="submit" value="Generate name" onclick="generateAkanName()">
     </div>
-
     <h3 id=display-name><strong>Your Akan Name will be displayed below</strong></h3>
     <p id="result"></p>
     </div>
 </body>
-<script src="script.js"></script>
+<footer class="page-footer ">
+    <div class="footer-copyright text-center py-3">Copyright © 2022:
+      <a href="https://github.com/wairimukanene/Linux-commands"> Mercy Kanene</a>
+</footer>
+<script src="/script.js"></script>
 </html>

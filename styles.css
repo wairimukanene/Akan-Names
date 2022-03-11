@@ -25,7 +25,7 @@
 .h2 class{
     font-weight: 100;
     color: black;
-    font-size: 20px;
+    font-size: 10px;
 }
 .Home{
     display:flex;
@@ -36,13 +36,22 @@
 .About{
 align-items: center;
 }
-input{
-    width:100%;
-}
-.Name-Generator{
-    width:100%;
-    padding:12px 20px;
-    margin:8px 0;
-    box-sizing: border-box;
-    align-content: center;
-}
+.form{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+footer-copyright{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .footer-copyright a{
+  color: olive;
+  font-weight: 600;
+  }
+  .footer-copyright a:hover{
+    color: rgb(254, 254, 254);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
